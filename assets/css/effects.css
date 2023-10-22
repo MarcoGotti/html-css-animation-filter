@@ -2,6 +2,23 @@
     background-color: red;
 }
 
-.ex-1-square:hover{
+.ex-1-square{
     transition: background-color 2s;
 }
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+.ex-2-square{
+    transition: width 3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+.ex-3-square{
+    transition: border-radius 1.5s;
+}
+
