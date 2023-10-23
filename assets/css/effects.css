@@ -103,7 +103,7 @@
         transform: rotate(0deg);
     }
 }
-
+ /* ex 12 */
 .ex-12-button:hover .ex-12-top-white{
     animation-name: move-top-12;
     animation-duration: 1s;
@@ -131,6 +131,7 @@
     }
 }
 
+/* ex 13 */
 .ex-13-button:hover .ex-13-top-white{
     animation-name: move-top-13;
     animation-duration: 2s;
@@ -138,9 +139,11 @@
 @keyframes move-top-13 {
     0%{
         left: 10%;
+        top: -10px;
     }
     30%{
         left: calc(100% - 10px);
+        top: -10px;
     }
     40%{
         left: calc(100% - 10px);
@@ -156,6 +159,7 @@
     }
     100%{
         left: 10%;
+        top: -10px;
     }
 }
 
@@ -166,9 +170,11 @@
 @keyframes move-bottom-13 {
     0%{
         right: 20%;
+        bottom: -10%;
     }
     25%{
         right: calc(100% - 50px);
+        bottom: -10%;
     }
     35%{
         right: calc(100% - 50px);
@@ -180,9 +186,11 @@
     }
     85%{
         right: -50px;
+        bottom: -10%;
     }
     100%{
         right: 20%;
+        bottom: -10%;
     }
 }
 
